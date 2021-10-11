@@ -1,0 +1,94 @@
+*{
+  font-family: Courier New;
+  color:#363636;
+}
+
+body{
+
+  background-image: url(linedPaper.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+p, ol{
+  text-align: center;
+}
+
+#title{
+  text-align: center;
+}
+
+.bigContainer{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  width:100%;
+  height:100%;
+}
+
+.smallContainer{
+  width:40%;
+  min-width:170px;
+  padding:20px;
+  background-color:#fafafa;
+  border-radius: 6pt;
+  border: 2px solid #c94b4b;
+  margin-left:20px;
+  margin-right:20px;
+
+}
+
+#enterPrompt, #title, .labelBold, li{
+  font-weight: bold;
+}
+
+#submit{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding-left:30px;
+  padding-right:30px;
+  padding-top:20px;
+  padding-bottom:20px;
+  border:none;
+  /*background-color:#dedede;*/
+
+  /*font-weight: bold;*/
+  font-size: 12pt;
+  border-radius: 6pt;
+}
+
+.completeStyle{
+  text-decoration: line-through;
+}
+
+.pendingStyle{
+  text-decoration: none;
+}
+
+.form-group{
+  margin-top:0px;
+  margin-bottom:0px;
+}
+
+#priorityKey{
+  font-size: 12pt;
+}
+#enterPrompt{
+  font-size:14pt;
+}
+
+.removeBtn, .changeStatusBtn{
+  background-color:#eb4d4d;
+  color:white;
+  border:none;
+  border-radius: 6pt;
+
+  padding-left:20px;
+  padding-right:20px;
+  padding-top:10px;
+  padding-bottom:10px;
+}
